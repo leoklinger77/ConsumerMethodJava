@@ -17,7 +17,7 @@ public class Program {
 
 		// decrease the price by 10 percent
 
-		list.forEach(Product::staticPriceUpdate);
+		list.forEach(Product::nonStaticPriceUpdate);
 
 		list.forEach(System.out::println);
 
