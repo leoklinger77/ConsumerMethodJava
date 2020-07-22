@@ -20,9 +20,7 @@ public class Program {
 
 		list.forEach(new PriceUpdate());
 
-		for (Product p : list) {
-			System.out.println(p);
-		}
+		list.forEach(System.out::println);
 
 	}
 
